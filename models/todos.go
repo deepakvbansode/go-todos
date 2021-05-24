@@ -15,3 +15,9 @@ type TodoUpdate struct {
 type DeleteTodo struct {
 	DeletedCount int `json:"deletedCount"`
 }
+
+type Session struct {
+	UserID  string
+	StarID  string
+	EmailID string
+}
